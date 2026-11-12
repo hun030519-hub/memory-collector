@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f3fa">
+  <meta name="description" content="메모리 콜렉터 — 단 한 번의 터치로 행복한 기억을 복원하는 감성 1버튼 리듬게임. 웹에서 무료로 체험해 보세요.">
+  <meta property="og:title" content="Memory Collector | 기억을 다시 물들이다">
+  <meta property="og:description" content="누군가의 눈부신 행복의 순간을 박자에 맞춰 수집하다. 웹 체험판 공개.">
+  <meta property="og:image" content="assets/concept-1.webp">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <title>Memory Collector · 메모리 콜렉터</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="game.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 바로가기</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="메모리 콜렉터 홈"><span class="brand-symbol">✦</span><span>Memory <em>Collector</em></span></a>
+      <nav class="desktop-nav" aria-label="주 메뉴">
+        <a href="#about">게임 소개</a><a href="#memories">기억의 앨범</a><a href="#howto">플레이 방법</a><a href="#demo">체험하기</a>
+      </nav>
+      <a class="nav-cta" href="#demo">지금 플레이 <span aria-hidden="true">↗</span></a>
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-nav">☰</button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="모바일 메뉴" hidden>
+      <a href="#about">게임 소개</a><a href="#memories">기억의 앨범</a><a href="#howto">플레이 방법</a><a href="#demo">체험하기</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section" id="top">
+      <div class="hero-glow hero-glow-1"></div><div class="hero-glow hero-glow-2"></div>
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="dot"></span> MEMORY COLLECTOR · WEB DEMO</div>
+          <h1>잊고 있던 행복에,<br><span class="highlight">다시 색을 입히다<span class="scribble">✳</span></span></h1>
+          <p class="hero-description">누군가의 소중한 순간을 리듬에 맞춰 되살리는 작은 여행. 단 하나의 버튼으로 흑백의 기억을 컬러로 물들여 보세요.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#demo">✦ &nbsp;무료로 체험하기 <span>↗</span></a><a class="button button-ghost" href="#howto">플레이 방법 보기 <span>→</span></a></div>
+          <div class="hero-pills"><span>◉ 1버튼 리듬 액션</span><span>♡ 따뜻한 일상 이야기</span><span>✦ 설치 없는 웹 플레이</span></div>
+        </div>
+        <div class="hero-art">
+          <span class="hand-note note-top">어떤 기억을<br>되찾을까요? ♡</span>
+          <div class="art-frame"><img src="assets/concept-1.webp" alt="노을 지는 도시와 기억을 수집하는 캐릭터가 등장하는 메모리 콜렉터 콘셉트 화면" width="1920" height="1080" loading="eager"><span class="art-frame-tag">A LITTLE MOMENT OF JOY</span></div>
+          <div class="float-sticker sticker-star" aria-hidden="true">✦</div><div class="float-sticker sticker-heart" aria-hidden="true">♥</div>
+          <span class="hand-note note-bottom">오늘의 작은 행복을<br>기억해 주세요.</span>
+        </div>
+      </div>
+      <div class="hero-bottom" aria-hidden="true"><span>✦</span><span>♡</span><span>✧</span><span>✦</span></div>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-intro center"><span class="section-kicker">THE STORY</span><h2>평범해서 더 소중한,<br><span>우리의 작은 순간들</span></h2><p>기억은 희미해져도, 그날의 설렘은 사라지지 않으니까.</p></div>
+        <div class="story-grid">
+          <div class="story-visual"><div class="story-tape tape-left"></div><img src="assets/album.webp" alt="앨범에 반려견과 빗속의 댄스, 첫 데이트 등의 기억이 담긴 스테이지 선택 화면" loading="lazy" width="1792" height="1024"><span class="polaroid-caption">Our precious memories, forever.</span></div>
+          <div class="story-copy"><div class="small-stamp">Dear, memory keeper ♡</div><h3>당신은<br><span>메모리 콜렉터</span>입니다.</h3><p>흑백으로 멈춘 누군가의 행복한 기억. 음악의 박자에 맞춰 작은 행동을 완성할 때마다 장면에 색과 생기가 돌아옵니다.</p><p>친구와의 웃음, 따뜻한 빵 냄새, 반려견의 마중처럼 마음에 남은 순간을 하나씩 수집해 나가세요.</p><div class="story-points"><div><span class="point-icon">♫</span><span><strong>간단한 조작</strong><small>터치하거나 스페이스바 하나면 충분해요</small></span></div><div><span class="point-icon">✧</span><span><strong>색을 되찾는 순간</strong><small>리듬에 맞출수록 기억이 선명해져요</small></span></div><div><span class="point-icon">▧</span><span><strong>나만의 기억 앨범</strong><small>복원한 장면을 소중하게 간직해요</small></span></div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section memories-section" id="memories">
+      <div class="container"><div class="section-heading-line"><div><span class="section-kicker">THE MEMORY ALBUM</span><h2>어떤 기억을 <span>만나볼까요?</span></h2></div><p>서로 다른 하루, 서로 다른 행복.<br>마음에 드는 기억부터 플레이해 보세요.</p></div>
+      <div class="memory-grid">
+        <button class="memory-card" data-pick="dog" type="button" aria-label="퇴근길 댕댕이의 마중 스테이지 선택"><div class="memory-art dog-art"><div class="card-sky sun"></div><span class="art-emoji">🐶</span><span class="card-spark">✦ ✦</span></div><div class="memory-body"><div class="card-label">MEMORY 01 · 따뜻한 일상</div><h3>퇴근길 댕댕이의 마중</h3><p>문을 열면 달려와 주던 작은 가족</p><span class="card-link">체험 플레이 <span>↗</span></span></div></button>
+        <button class="memory-card" data-pick="rain" type="button" aria-label="빗속의 댄스 스테이지 선택"><div class="memory-art rain-art"><span class="rain-decoration">☂</span><span class="art-emoji">🌧️</span><span class="card-spark">✦ ✧</span></div><div class="memory-body"><div class="card-label">MEMORY 02 · 어린 시절</div><h3>빗속의 댄스</h3><p>첨벙첨벙, 비 오는 날이 좋았던 이유</p><span class="card-link">체험 플레이 <span>↗</span></span></div></button>
+        <button class="memory-card" data-pick="popcorn" type="button" aria-label="톡톡 팝콘 데이트 스테이지 선택"><div class="memory-art popcorn-art"><span class="art-emoji">🍿</span><span class="card-spark">♥ ♥</span></div><div class="memory-body"><div class="card-label">MEMORY 03 · 첫 설렘</div><h3>톡! 톡! 팝콘 데이트</h3><p>설레던 첫 영화, 작은 웃음소리</p><span class="card-link">체험 플레이 <span>↗</span></span></div></button>
+      </div>
+      <p class="memory-hint">✳ 이번 웹 체험판은 3가지 기억을 간단한 리듬 플레이로 체험할 수 있어요.</p></div>
+    </section>
+
+    <section class="section how-section" id="howto">
+      <div class="container"><div class="section-intro center"><span class="section-kicker">HOW TO PLAY</span><h2>단 하나의 버튼으로<br><span>기억을 되찾는 방법</span></h2><p>복잡한 조작은 필요 없어요. 음악을 듣고, 화면을 보고, 타이밍에 맞춰 톡!</p></div>
+      <div class="step-grid"><div class="step-card"><span class="step-number">01</span><div class="step-illustration">♫ <span class="tiny-wave">♪ · ♪</span></div><h3>박자를 느껴요</h3><p>리듬과 화면 중앙에 모이는 원을 보고 타이밍을 준비하세요.</p></div><div class="step-card"><span class="step-number">02</span><div class="step-illustration key-illustration"><kbd>SPACE</kbd><span>또는 탭!</span></div><h3>딱 맞춰 눌러요</h3><p>PC에서는 <strong>스페이스바</strong>, 모바일에서는 <strong>화면 터치</strong>로 플레이해요.</p></div><div class="step-card"><span class="step-number">03</span><div class="step-illustration pink-illustration">PERFECT! <span>✦</span></div><h3>기억을 물들여요</h3><p>Perfect · Good · Miss 판정을 받고, 성공할수록 컬러가 돌아와요.</p></div></div>
+      <div class="tip-banner"><span class="tip-sparkle">✧</span><div><strong>작은 팁!</strong> 원이 가운데 표시와 겹칠 때 눌러 보세요. 강아지 스테이지의 마지막 박자는 <strong>길게 누르기(HOLD)</strong>예요.</div><span class="tip-heart">♡</span></div>
+      </div>
+    </section>
+
+    <section class="section demo-section" id="demo">
+      <div class="container"><div class="section-intro center"><span class="section-kicker">PLAYABLE WEB DEMO</span><h2>이제, 직접 <span>기억을 깨워볼까요?</span></h2><p>별도 설치 없이 이 페이지에서 바로 플레이할 수 있어요.</p></div>
+      <div class="demo-shell" id="demo-shell"><div class="demo-toolbar"><div><span class="online-dot"></span> MEMORY COLLECTOR <span class="toolbar-version">/ MINI DEMO v0.1</span></div><div class="demo-tool-actions"><button id="sound-btn" class="icon-button" type="button" aria-label="사운드 끄기" title="소리 켜기/끄기">♫ 소리 켜짐</button><button id="pause-btn" class="icon-button" type="button" aria-label="게임 일시정지" title="일시정지" disabled>Ⅱ 일시정지</button></div></div>
+      <div class="game-layout"><div class="game-area"><div class="game-stage"><canvas id="game-canvas" width="960" height="540" aria-label="리듬게임 배경 화면. 화면의 원이 중앙에 도착할 때 입력하세요."></canvas><div class="game-top-hud"><div class="hud-title"><span id="hud-stage-label">MEMORY 02</span><strong id="hud-stage-title">빗속의 댄스</strong></div><div class="hud-score"><span>COMBO</span><strong id="hud-combo">0</strong></div></div><div class="game-progress"><div id="progress-fill"></div></div><div id="judge-text" class="judge-text" aria-live="polite"></div><div id="cue" class="beat-cue" aria-hidden="true"><div id="cue-ring" class="cue-ring"></div><div class="cue-center"><span id="cue-icon">♪</span><strong id="cue-label">TAP!</strong><div class="hold-meter"><div id="hold-fill"></div></div></div></div><div id="game-overlay" class="game-overlay"><div class="overlay-card" id="overlay-content"><span class="overlay-eyebrow">READY TO REMEMBER?</span><div class="overlay-emoji">🌧️</div><h3>빗속의 댄스</h3><p>빗방울과 발걸음에 맞춰 화면을 톡! 터치해 보세요.</p><button id="start-game" type="button" class="button button-primary">▶ &nbsp;체험 시작하기</button><small>PC SPACE · 모바일 탭</small></div></div></div>
+          <div class="game-bottom-bar"><div><span class="key-chip">SPACE</span> 또는 화면 터치 <span class="control-detail">· 박자에 맞춰 입력하세요</span></div><div><span id="live-feedback">시작 버튼을 눌러 주세요</span></div></div>
+      </div>
+      <aside class="demo-sidebar"><span class="sidebar-eyebrow">SELECT MEMORY</span><h3>오늘의 기억 <span>✦</span></h3><div class="stage-select" role="group" aria-label="체험할 기억 선택"><button type="button" class="stage-option" data-stage="dog"><span class="stage-mini-emoji">🐶</span><span><strong>댕댕이의 마중</strong><small>Tap + Hold</small></span><span class="stage-check">○</span></button><button type="button" class="stage-option active" data-stage="rain" aria-pressed="true"><span class="stage-mini-emoji">🌧️</span><span><strong>빗속의 댄스</strong><small>Tap</small></span><span class="stage-check">○</span></button><button type="button" class="stage-option" data-stage="popcorn"><span class="stage-mini-emoji">🍿</span><span><strong>팝콘 데이트</strong><small>Tap</small></span><span class="stage-check">○</span></button></div><div class="demo-divider"></div><div class="record-header">나의 기억 앨범 <span id="album-count">0 / 3</span></div><div id="album-chips" class="album-chips"><span>아직 모은 기억이 없어요 ♡</span></div><p class="demo-note">진행 기록은 이 브라우저에만 저장됩니다. <button id="reset-records" type="button">기록 초기화</button></p></aside>
+      </div></div>
+      <div class="demo-disclaimer">✧ 현재 체험판은 게임의 핵심 조작과 기억 복원 연출을 검증하기 위한 초기 웹 프로토타입입니다.</div>
+      </div>
+    </section>
+
+    <section class="closing-section"><div class="container"><span>✦ A STORY IN EVERY LITTLE MOMENT ✦</span><h2>오늘도, 작은 행복을<br>기억하는 하루가 되기를.</h2><a href="#top" class="button button-light">처음으로 돌아가기 ↑</a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span class="footer-logo">✦ Memory Collector</span><span>기획 · 웹 프로토타입 | University Game Project</span><span>© 2026 Memory Collector</span></div></footer>
+</body>
+</html>
